@@ -1,22 +1,22 @@
 %octave.script
 %Escuela:  Tecnologico de estudios superiores de jilotepec 
 %Especialidad: Ingenieria en Sistemas Computacionales 
-%Title          :Clasificacion de los números 
-%Description    :Scrip para recordar conceptos de números 
+%Title          :Clasificacion de los nÃºmeros 
+%Description    :Scrip para recordar conceptos de nÃºmeros 
 %Author         :Ambar Itzel Cruz Zarza
 %Date           :202123174
 %Version        :1
 %Usage          :octave> /path/ClasificacionNumeros
-%Notes          :Requiere aplicación octave, usar su linea de comandos 
+%Notes          :Requiere aplicaciÃ³n octave, usar su linea de comandos 
 
 clear
 c_Numeros_Naturales = '?={1, 2, 3, ....n}si n> 0';
 c_Numeros_Enteros = '?={-n...,-2,-1,0,1,2,...n}';
-c_Numeros_Racionales = '?={m/n dónde m,n ?? n ? 0}';
-c_Numeros_Irracionales = 'I = {?n que no puede ser expresado como ? todas las raíces que no son exactas}';
+c_Numeros_Racionales = '?={m/n dÃ³nde m,n ?? n ? 0}';
+c_Numeros_Irracionales = 'I = {?n que no puede ser expresado como ? todas las raÃ­ces que no son exactas}';
 c_Numeros_Reales = '?={I,?,?,?}';
 
-%Propiedades de los núemros sean a,b,c,d,e ??
+%Propiedades de los nÃºemros sean a,b,c,d,e ??
 
 %Propiedades de ?(Cerradura)
 disp 'Propiedadde cerradura'
@@ -65,19 +65,19 @@ a+0
 a+0, 0+a, disp 'Esta propiedad es conmutiva'
 
 %Neutro multiplicativo
-disp 'Neutro multiplicativo'
+disp('Neutro multiplicativo');
 p_neutroM= 'a (1) = a';
 a=3;
 a*1
 
 %Inverso aditivo
-disp 'Inverso aditivo'
+disp ('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
 a=4;
 a+(-a)
 
 %Inverso multiplicactivo o reciproco
-disp 'Inverso multiplicactivo o reciproco´'
+disp 'Inverso multiplicactivo o reciprocoÂ´'
 p_inversoM = 'a (1/a) = 1';
 a=5;
 a*(1/a)
@@ -92,8 +92,8 @@ c=3;
 a>b && b>c|a>c
 a==b && b==c|a==c
 
-%Tricotomia (raíz del algebra) siempre se pueden comparar
-disp ' Tricotomia (raíz del algebra)'
+%Tricotomia (raÃ­z del algebra) siempre se pueden comparar
+disp ' Tricotomia (raÃ­z del algebra)'
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
@@ -103,5 +103,5 @@ a>b
 a==b
 a<b
 
-%signos de agrupación
+%signos de agrupaciÃ³n
 s_agrupacion = '{[()]}';
